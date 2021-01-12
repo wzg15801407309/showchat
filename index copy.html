@@ -27,20 +27,39 @@
             </button>
         </div>
         <div class="chat-window">
+            <!-- 开始展示 -->
+            <div class="system-message">
+                xx和xx转译开始 ! Say Hi to 客户.
+            </div>
+            <div class="system-message">11:05PM, 7/14/2019</div>
+            <!-- left  -->
+            <div class="left-box">
+              <div class="left-time" >2021-01-12 14:25:50</div>
+              <div class="left-wrapper">
+                <div class="left-avatar">
+                  <img src="./image/group.png" alt="..." />
+                </div>
+                <div class="left-message">
+                  你好
+                </div>
+              </div>
+            </div>
+            <!-- right -->
+            <div class="right-box">
+              <div class="right-time" >2021-01-12 14:25:50</div>
+              <div class="right-wrapper">
+                <!-- <div class="right-time">2021-01-12 14:25</div> -->
+                <div class="right-message">你好</div>
+                <div class="right-avatar">
+                  <img src="./image/group.png" alt="..." />
+                </div>
+              </div>
+            </div>
         </div>
     </div>
 </div>
 <script src="./js/showchat.js">
-</script>
-<script text="text/javascript">
-
-  var chatMsg=new showChat({
-    msgStyle:1,
-    styleData:{
-      client:'jack',
-      timestr:'11:05PM, 7/14/2019'
-    }
-  });
+  console.log(this);
 </script>
 </body>
 </html>
