@@ -44,7 +44,7 @@
             var html='';
             data.forEach(data => {
                 html += `<div class="left-box">
-                <div class="left-time ${_isTopMsg?'hiden' : ''}" >${data.Ctime}</div>
+                <div class="left-time ${!_isTopMsg?'hiden' : ''}" >${data.Ctime}</div>
                  <div class="left-wrapper">
                      <div class="left-avatar">
                          <img src="./image/group.png" alt="..." />
@@ -53,7 +53,7 @@
                  </div>
              </div>
              <div class="right-box">
-                <div class="right-time ${_isTopMsg?'hiden' : ''}" >${data.CStime}</div>
+                <div class="right-time ${!_isTopMsg? 'hiden' : ''}" >${data.CStime}</div>
                  <div class="right-wrapper">
                      <div class="right-message"  id=${data.id}>${data.msgCustomer}</div>
                      <div class="right-avatar">
