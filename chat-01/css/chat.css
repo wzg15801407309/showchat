@@ -87,6 +87,7 @@
     height: auto;
     display: flex;
     float: left;
+    position: relative;
 }
 .left-wrapper .left-avatar{
     width: 42px;
@@ -106,7 +107,7 @@
     line-height: 35px;
     height: auto;
     padding: 0 15px;
-    background-color: rgb(78, 206, 223);
+    background: rgb(78, 206, 223);
     border: 2px solid black;
     -webkit-box-shadow: -1px -1px 32px -4px rgba(0, 0, 0, 0.64);
     -moz-box-shadow: -1px -1px 32px -4px rgba(0, 0, 0, 0.64);

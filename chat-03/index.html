@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/chat.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>showchat</title>
+    <script src="./lib/jquery.min.js"></script>
+</head>
+<body>
+<div class="chat">
+    <div class="contentBox">
+        <!-- 后期要修改 -->
+        <div class="header">
+            <div class="current-chatter">人机交互记录</div>
+            <button id="log-out" type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="chat-window">
+          
+        </div>
+    </div>
+</div>
+<script src="./js/showchat.js">
+</script>
+<script text="text/javascript">
+
+  var chatMsg=new showChat({
+    headImg:{},
+    msgStyle:0,
+    msgBoxStyle:0,
+    styleData:{
+      clientNaem:'jack',
+      timestr:'11:05PM, 7/14/2019'
+    },
+    msgData:[
+      {id:0,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:1,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:2,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:3,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:4,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:5,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:6,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:7,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:8,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:9,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:10,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+    ]
+  });
+</script>
+</body>
+</html>
+

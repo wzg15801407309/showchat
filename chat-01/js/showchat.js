@@ -47,7 +47,7 @@
                 <div class="left-time ${!_isTopMsg?'hiden' : ''}" >${data.Ctime}</div>
                  <div class="left-wrapper">
                      <div class="left-avatar">
-                         <img src="./image/group.png" alt="..." />
+                         <img src="./image/defaulthead.png" alt="..." />
                      </div>
                      <div class="left-message" id=${data.id}>${data.msgClient}</div>
                  </div>
@@ -57,7 +57,7 @@
                  <div class="right-wrapper">
                      <div class="right-message"  id=${data.id}>${data.msgCustomer}</div>
                      <div class="right-avatar">
-                          <img src="./image/group.png" alt="..." />
+                          <img src="./image/defaulthead.png" alt="..." />
                      </div>
                  </div>
              </div>`
