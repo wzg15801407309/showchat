@@ -1,4 +1,5 @@
-(function(){
+
+;(function(){
     function showChat(options){
         var _options = options || {};
         var _isTopMsg=false;

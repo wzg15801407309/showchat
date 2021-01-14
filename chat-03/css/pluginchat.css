@@ -1,0 +1,37 @@
+.dpn_chatbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00b6b6;
+    border-radius: 10px;
+    background-color: #f8fdfc;
+    /*hide scrollbar in IE*/
+    -ms-overflow-style:none;
+    /*hide scrollbar in firwfox*/
+    overflow-y:-moz-scrollbars-none;
+}
+.dpn-head{
+    width: 100%;
+    height: 10%;
+    border-bottom:1px dashed #00b6b6;
+    align-items: flex-end;
+    display: flex;
+}
+.dpn-title{
+    color: #00b6b6;
+    font-weight: 600;
+    padding: 0 15px;
+}
+.dpn-content{
+    width: 100%;
+    height: 100%;
+}
+/* 滚动条 */
+.dpn-content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.dpn-content::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #00b6b6;
+    opacity: 0.7;
+}
