@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/pluginchat.css">
+    <title>showchat</title>
+    <style>
+        .row-2{
+            /* margin: 20px auto; */
+            position: relative;
+            width: 200px;
+            height: 50px;
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid #00b6b6;
+            border-radius: 5px;
+            background:  #00b6b6;
+        }
+        .row-2::after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            /* 箭头靠右边 */
+            /* top: 13px;
+            right: -10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid #00b6b6; */
+            /* 箭头靠下边 */
+            /* left: 25px;
+            bottom: -10px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid teal; */
+            /* 箭头靠左边 */
+            top: 13px;
+            left: -10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid #00b6b6;
+            /* 箭头靠下边 */
+            /* top: -10px;
+            left: 25px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid teal; */
+        }
+    </style>
+</head>
+<body>
+  <!-- <div class="left-wrapper">
+    <div class="left-time">2021-01-15 10:25:46</div>
+    <div class="left-msgbox">
+      <div class="left-avatar">
+        <img src="./image/client.png" alt="">
+      </div>
+      <div class="left-message">left-message</div>
+    </div>
+  </div>
+  <div class="left-wrapper-01">
+    <div class="left-time">2021-01-15 10:25:46</div>
+    <div class="left-msgbox">
+      <div class="left-avatar">
+        <img src="./image/client.png" alt="">
+      </div>
+      <div class="left-message-01">left-message</div>
+    </div>
+  </div> -->
+  <div class="right-wrapper">
+    <div class="right-time">2021-01-15 10:25:46</div>
+    <div class="right-msgbox">
+      <div class="right-message">left-message</div>
+      <div class="right-avatar">
+        <img src="./image/customer.png" alt="">
+      </div>
+    </div>
+  </div>
+<script src="./js/pluginChat.js">
+</script>
+<script text="text/javascript">
+let chat=new PluginChat({
+  // title:'人机交互历史转译',
+  width:"70%",
+  height:"80%",
+  msgData:[
+      {id:0,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:1,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:2,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:3,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:4,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:5,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:6,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:7,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:8,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:9,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+      {id:10,msgClient:'你好啊！',Ctime:'2021-01-13 15:30:56',msgCustomer:'你好，请你你要办理什么业务',CStime:'2021-01-13 15:30:58'},
+    ]
+});
+chat.showMsg();
+</script>
+</body>
+</html>
+

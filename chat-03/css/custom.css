@@ -6,7 +6,7 @@ body {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 .hiden{
-  display: none;
+  display: none !important;
 }
 .show{
   display: inline-block;
