@@ -57,7 +57,7 @@
             dpnMsgBox.style.height=_options.height;
             dpnMsgBox.className='dpn_chatbox';
             dpnMsgBox.innerHTML=`
-                    <div class="dpn-head">
+                    <div class="dpn-head ${_options.title ? 'show' : 'hide'}">
                         <div class="dpn-title">
                             ${_options.title}
                         </div>

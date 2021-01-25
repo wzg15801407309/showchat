@@ -14,7 +14,7 @@
     height: 12%;
     border-bottom:1px dashed #00b6b6;
     align-items: flex-end;
-    display: flex;
+    /* display: flex; */
 }
 .dpn-title{
     color: #00b6b6;
@@ -182,4 +182,13 @@
     top: 50%;
     right: -10px;
     transform: translateY(-59%);
+}
+
+
+/* 代码设置样式 */
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
 }
